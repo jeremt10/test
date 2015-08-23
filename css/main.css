@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */ 
+
+body{font-family: 'Rokkitt', serif;}
+
+/* HEADER */
+header{width:90%; margin:3.92% 0 0 3.92%;} 
+h1{font-family: 'Raleway Dots', cursive; font-size: 3.429em; line-height:10px; color:#000; line-height:1em; padding:0 0 20px 0 } /* 48px / 14px */
+h2{font-size: 1.428em; padding:0 0 5px 0  }/* 20px / 14px */
+
+.infinite{font-family: 'Rokkitt', serif; font-size: 0.625em; padding:0} /* 30px / 48px */
+
+header li{display: inline-block; margin: 0 20px}
+	
+#lang_html{ background-image: url('../img/icon/icon_html.gif'); background-repeat: no-repeat; 
+width:45px; padding: 45px 0 0 0; text-align: center; margin:0}
+#lang_css{ background-image: url('../img/icon/icon_css.gif'); background-repeat: no-repeat;
+width:47px; padding: 46px 0 0 0; text-align: center}
+#lang_jquery{ background-image: url('../img/icon/icon_jquery.jpg'); background-repeat: no-repeat;
+width:54px; padding: 46px 0 0 0; text-align: center}
+#lang_php{ background-image: url('../img/icon/icon_php.gif'); background-repeat: no-repeat;
+width:51px; padding: 30px 0 0 0; text-align: center;}
+#cms_prestashop{ background-image: url('../img/icon/icon_prestashop.gif'); background-repeat: no-repeat; background-position: 10px 0; 
+width:70px; padding: 47px 0 0 0; text-align: center}
+#cms_wordpress{ background-image: url('../img/icon/icon_wordpress.gif'); background-repeat: no-repeat; 
+width:63px; padding: 39px 0 0 0; text-align: center}
+
+
+/* MAIN */
+#main{width:90%; margin:0 0 0 3.92%; }
+	#main_nav{margin:20px 0;}
+		#main_nav li{text-transform: uppercase; font-size: 1.714em; margin:0 0 5px 0 } /* 24px / 14px */
+			#main_nav li a:hover{color:#979797}
+
+#projet{float:left}
+.ecommerce, .vitrine, .newsletter{display: none; clear: both; margin:10px 0;float:left; padding:5px 0; border-bottom:1px dotted black; width:100% }
+	.projet_img{float:left; width:52%}
+		.projet_img img{max-width: 100%}
+	
+	.projet_descriptif{float:right; width:38%;margin:5px 0; } /* 380/960 */
+		.projet_descriptif h3{background: grey; display: inline; padding:0 2px; font-size: 1.714em; }
+		.projet_descriptif p{line-height: 1.6em; font-size: 1.286em }
+			.projet_descriptif p a{background: grey;padding:0 2px}
+
+
+
+
+/* FOOTER */
+footer{width:90%; margin:0 0 0 3.92%; clear: both }
+		footer ul li{display:inline; font-size: 1.286em; font-weight: bold; padding:0 5px 0 0} /* 18px / 14px */
+			#link_cv{border-right:1px black solid;}
+			#link_apropos{padding:0 0 0 5px}
+
+			#link_mail{border-right:1px black solid}
+				#link_mail a{color:#b8b8b8}
+			#link_mesuivre{padding:0 0 0 5px; padding:10px}
+				#link_mesuivre a{margin:0 5px; line-height:27px; display: inline-block;}
+
+	footer p{color:#d2d2d2; float:right}
